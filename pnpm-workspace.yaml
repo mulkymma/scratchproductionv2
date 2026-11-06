@@ -4,6 +4,6 @@ minimumReleaseAgeExclude:
   - '@next/*'
   - next
 
-onlyBuiltDependencies:
-  - esbuild
-  - workerd
+allowBuilds:
+  esbuild: true
+  workerd: true
