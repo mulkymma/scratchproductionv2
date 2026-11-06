@@ -1,7 +1,14 @@
+
 {
   "name": "my-project",
   "version": "0.1.0",
   "private": true,
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "workerd"
+    ]
+  },
   "packageManager": "pnpm@12.3.4",
   "scripts": {
     "dev": "next dev --webpack",
